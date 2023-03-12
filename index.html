@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>bibliothèque</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="first-section">
+      <header>
+        <div class="logo accueil">
+          <img src="image/logo.png">
+        </div>
+      
+        <nav>
+          <a href="#Home" class="accueil">Accueil</a>
+          <a href="#About">À propos de</a>
+          <a href="#Featured">Populaires</a>
+          <a href="#Reviews">Commentaires</a>
+          <a href="#Nouveau">Nouveaux livres</a>
+        </nav>
+
+      <div class="header-icons">
+        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+      </div>
+
+      <div class="search-div" id="search-div">
+        <input type="search" id="search-box" placeholder="chercher livre...">
+        <label for="search-box" class="fas fa-search" id="search-icon"></label>
+      </div>
+      </header>
+
+      <!-- Books searched section-->
+        <section class="books-searched"  id="books-searched">
+            <div class="card-book">
+            <div class="card-img">
+                <img src="image.png" alt="erreur">
+            </div>
+                <div class="card-body">
+                <h5 class="card-title">Harry Potter et la coupe de feu</h5>
+                <p class="card-text">Author: darwin heloo</p>
+                <p class="card-text">Publisher: Gallimard Jeunesse</p>
+                <a target="_blank" href="#" >Lire Livre</a>
+                </div>
+            </div>
+        </section>  
+
+        <!--main-->
+      <section class="main" id="Home">
+        <div class="main-tag">
+            <h1>BIENVENUE SUR<br><span>BIBLIOTHÈQUE</span></h1>
+          <p class="paragraphe">
+            Notre bibliothèque vous offre une bonne éxperiance pour lire des livres dans plusieurs domains, alors rejoignons nous.  
+          </p>
+          <a href="#" class="btn main-btn" id="sign-up">S'inscrire</a>
+        </div>
+
+        <div class="img-main">
+          <img src="image/table.png">
+        </div>
+      </section>
+      
+    </section>
+
+  <!--Services-->
+  <section class="services" id="Services">
+    <div class="services-box">
+      <div class="services-card">
+          <i class="fa-solid fa-book-open-cover"></i>
+          <i class="fa-solid fa-book-open-reader"></i>
+          <h3>Lire des Livres gratuits en ligne</h3>
+          <p>
+            plusieurs livres disponible 
+          </p>
+      </div>
+
+      <div class="services-card">
+        <i class="fa-solid fa-bookmark"></i>
+          <h3>Garder vos livres favories</h3>
+          <p>
+            enregistrez vos livres préférés dans votre compte personnel
+          </p>
+      </div>
+
+      <div class="services-card">
+        <i class="fa-solid fa-magnifying-glass"></i>
+          <h3>Trouver vos livres</h3>
+          <p>
+            trouver le résultat correspondant dans plusieurs livres 
+          </p>
+      </div>
+
+      <div class="services-card">
+        <i class="fa-solid fa-comment"></i>
+          <h3>Envoyer nous vos impressions </h3>
+          <p>
+            Vos commentaires nous aident à améliorer notre site  
+          </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--About-->
+  <section class="about" id="About">
+    <div class="about-image">
+        <img src="image/about.png">
+    </div>
+    <div class="about-tag">
+        <h1>À propos de nous</h1>
+        <p class="paragraphe">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae cumque atque dolor corporis 
+            architecto. Voluptate expedita molestias maxime officia natus consectetur dolor quisquam illo? 
+            Quis illum nostrum perspiciatis laboriosam perferendis? Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Minus ad eius saepe architecto aperiam laboriosam voluptas nobis voluptates 
+            id amet eos repellat corrupti harum consectetur, dolorum dolore blanditiis quam quo.
+        </p>
+        <a href="#" class="btn about-btn">Learn More</a>
+    </div>
+</section>
+
+<!--Books-->
+<section class="featured_boks" id="Featured">
+  <h1>Populaires Livres</h1>
+  <div class="swiper featured-swiper">
+    <div class="swiper-wrapper featured_book_box" id="featured_book_box">  
+            <div class="swiper-slide featured_book_card">
+                <div class="featurde_book_img">
+                    <img src="image/book_1.jpg">
+                </div>
+                <div class="featurde_book_tag">
+                    <h2>Featured Books</h2>
+                    <p class="writer">John Deo</p>
+                    <div class="categories">Thriller, Horror, Romance</div>
+                    <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                    <a href="#" class="f_btn">Learn More</a>
+                </div>               
+            </div>
+
+            <div class="swiper-slide featured_book_card">
+                <div class="featurde_book_img">
+                    <img src="image/book_8.png">
+                </div>
+                <div class="featurde_book_tag">
+                    <h2>Featured Books</h2>
+                    <p class="writer">John Deo</p>
+                    <div class="categories">Thriller, Horror, Romance</div>
+                    <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                    <a href="#" class="f_btn">Learn More</a>
+                </div>               
+            </div>
+
+            <div class="swiper-slide featured_book_card">
+                <div class="featurde_book_img">
+                    <img src="image/book_9.jpg">
+                </div>
+                <div class="featurde_book_tag">
+                    <h2>Featured Books</h2>
+                    <p class="writer">John Deo</p>
+                    <div class="categories">Thriller, Horror, Romance</div>
+                    <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                    <a href="#" class="f_btn">Learn More</a>
+                </div>               
+            </div>
+
+            <div class="swiper-slide featured_book_card">
+                <div class="featurde_book_img">
+                    <img src="image/book_10.png">
+                </div>
+                <div class="featurde_book_tag">
+                    <h2>Featured Books</h2>
+                    <p class="writer">John Deo</p>
+                    <div class="categories">Thriller, Horror, Romance</div>
+                    <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                    <a href="#" class="f_btn">Learn More</a>
+                </div>               
+            </div>
+
+            <div class="swiper-slide featured_book_card">
+                <div class="featurde_book_img">
+                    <img src="image/book_11.jpg">
+                </div>
+                <div class="featurde_book_tag">
+                    <h2>Featured Books</h2>
+                    <p class="writer">John Deo</p>
+                    <div class="categories">Thriller, Horror, Romance</div>
+                    <p class="book_price">$25.50<sub><del>$28.60</del></sub></p>
+                    <a href="#" class="f_btn">Learn More</a>
+                </div>               
+            </div>     
+    </div>
+     <div class="swiper-pagination"></div> 
+     <div class="swiper-button-next swiper-navBtn"></div>
+     <div class="swiper-button-prev swiper-navBtn"></div>
+  </div>  
+
+</section>
+
+ 
+<!--Arrivals-->
+<section class="arrivals" id="Nouveau">
+    <h1>Nouveaux Livres</h1>
+
+    <div class="arrivals_box">
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_1.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_2.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_3.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_4.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_5.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_6.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_7.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_8.webp">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_9.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+        <div class="arrivals_card">
+            <div class="arrivals_image">
+                <img src="image/arrival_10.jpg">
+            </div>
+            <div class="arrivals_tag">
+                <p>New Arrivals</p>
+                <div class="arrivals_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="arrivals_btn">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--reviews-->
+<section class="reviews" id="Reviews">
+    <h1>Commentaires</h1>
+    <div class="swiper review-swiper">
+        <div class="swiper-wrapper review_box">
+            <div class="swiper-slide review_card">
+            <div class="card_top">
+                <img src="image/review_1.png">
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="card">
+                <h2>John Deo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eos doloribus iuredistinctio! Eos dolorem quam, nisi amet saepe totam, quas quidem laboriosam dolore, tenetur itaque nostrum voluptas excepturi aut.
+                </p>
+            </div>
+            </div>
+
+            <div class="swiper-slide review_card">
+            <div class="card_top">
+                <img src="image/review_2.png">
+                 <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="card">
+                <h2>John Deo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eos doloribus iure distinctio! Eos dolorem quam, nisi amet saepe totam, quas quidem laboriosam dolore, tenetur itaque nostrum voluptas excepturi aut.
+                </p>
+            </div>
+            </div>
+
+            <div class="swiper-slide review_card">
+            <div class="card_top">
+                <img src="image/review_3.png">
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="card">
+                <h2>John Deo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eos doloribus iure 
+                    distinctio! Eos dolorem quam, nisi amet saepe totam, quas quidem laboriosam dolore, 
+                    tenetur itaque nostrum voluptas excepturi aut.
+                </p>
+            </div>
+            </div>
+
+            <div class="swiper-slide review_card">
+            <div class="card_top">
+                <img src="image/review_4.png">
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="card">
+                <h2>John Deo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eos doloribus iure 
+                    distinctio! Eos dolorem quam, nisi amet saepe totam, quas quidem laboriosam dolore, 
+                    tenetur itaque nostrum voluptas excepturi aut.
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div> 
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+    </div>
+
+</section>
+
+<!--Comment section-->
+<section class="comment-box">
+   <form>
+    <textarea name="comment" cols="50" rows="10"
+    placeholder="Ecrire votre Commentaire..."></textarea>
+    <input type="submit" value="Envoyer Commentaire">  
+   </form>
+</section>
+
+<!--Banner-->
+<div class="banner">
+</div>
+
+<!--Footer-->
+<footer>
+    <div class="footer_main">
+
+        <div class="tag">
+            <img src="image/logo.png">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quaerat ipsa aspernatur ad 
+                sequi, dolore eveniet vitae quasi. Excepturi ipsa odio impedit sequi at hic velit, minus 
+                vero sint. Voluptas?
+            </p>
+        </div>
+
+        <div class="tag">
+            <h1>Liens rapides</h1>
+            <a href="#Home">Accueil</a>
+            <a href="#About">À propos de</a>
+            <a href="#Featured">Populaires</a>
+            <a href="#Arrivals">Arrivals</a>
+            <a href="#Reviews">Commentaire</a>
+            <a href="#Nouveau">Nouveaux Livres</a>
+        </div>
+
+        <div class="tag">
+            <h1>Suivez-nous</h1>
+            <div class="social_link">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>    
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>S'inscrire</h3>
+      </div>
+      <div class="modal-content">
+        <p>Inscrivez-vous avec nous pour obtenir des offres</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Nom</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Saisir Nom"
+              class="form-input"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Saisir Email"
+              class="form-input"
+            />
+          </div>
+          <div>
+            <label for="password">Mot de passe</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Saisir Mot de passe"
+              class="form-input"
+            />
+          </div>
+          <div>
+            <label for="password2">Confirmer Mot de passe</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Confirm Password"
+              class="form-input"
+            />
+          </div>
+          <input type="submit" value="Envoyer" class="btn-submit"/>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!--Modal login-->
+<div class="modal-container" id="modal-login">
+    <div class="modal">
+       <button class="close-btn" id="close-login">
+        <i class="fa fa-times"></i>
+       </button> 
+       <div class="modal-header">
+        <h3>Login</h3>
+      </div>
+      <div class="modal-content">
+        <form action="" class="modal-form">
+            <div>
+                <label for="login-email">Email</label>
+                <input
+                  type="text"
+                  id="login-email"
+                  placeholder="Saisir Email"
+                  class="form-input"
+                />
+            </div>
+
+            <div>
+                <label for="login-pass">Mot de passe</label>
+                <input
+                  type="text"
+                  id="login-pass"
+                  placeholder="Saisir Mot de passe"
+                  class="form-input"
+                />
+            </div>
+            <input type="submit" value="Envoyer" class="btn-submit"/>
+        </form>
+      </div>
+      <p class="footer-modal">si tu n'a pas de compte <span id="login-sign-up">s'inscrire</span></p>
+    </div>
+</div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
